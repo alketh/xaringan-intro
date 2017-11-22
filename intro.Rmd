@@ -2,9 +2,10 @@
 title: "Introduction to xaringan"
 subtitle: "Beautiful presentations with xaringan"
 author: "Alexander Keth"
-date: "2017/11/21"
+date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
+    css: ["slidify.css", "default-fonts.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -23,7 +24,6 @@ background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharin
 Image credit: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sharingan_triple.svg)
 
 ---
-class: center, middle
 
 # xaringan
 
