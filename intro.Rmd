@@ -5,7 +5,7 @@ author: "Alexander Keth"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-    css: ["slidify.css", "default-fonts.css"]
+    css: ["libs/rutgers.css", "libs/rutgers-fonts.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
