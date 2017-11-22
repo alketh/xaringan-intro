@@ -5,6 +5,7 @@ author: "Alexander Keth"
 date: "2017/11/21"
 output:
   xaringan::moon_reader:
+    css: ["metropolis", "metropolis-fonts"]
     lib_dir: libs
     nature:
       highlightStyle: github
