@@ -189,17 +189,15 @@ div.footer {
     width: 100%;
 }
 
-/* Add Header, use this in custom layout */
-div.my-header {
-    background-color: #F77A00;
+/* Add Header, use this in custom layout  */
+div.header {
+    background-color: rgb(60, 60, 60);
     position: fixed;
     top: 0px;
     left: 0px;
-    height: 30px;
+    height: 75px;
     width: 100%;
     text-align: left;
 }
-
-
 
 
