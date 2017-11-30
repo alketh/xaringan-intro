@@ -15,7 +15,7 @@ output:
 
 layout:true
 
-<div class="header">Slide test</div>
+<div class="header"></div>
 <div class="footer"><span>
 
 ---
@@ -30,10 +30,12 @@ Focus on your content. Writing your presentation in a simple markdown document m
 
 ---
 
-layout:false
+layout: false
 class: split, center, middle
 
-# New content
+# Your turn!
+
+## Do Stuff!
 
 ---
 
@@ -44,16 +46,24 @@ layout:true
 
 ---
 
+## a
+
+s
+
+---
+
 ## Another slide
+
+text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text. text lots of text.
 
 ---
 
 layout:false
-class: final-slide, middle, center
+class: final-slide, center, middle
 
 # Thanks!
 
-## This is the final slide
+## You can find me at:
 
 <a href="mailto:alexander.keth@uni-hamburg.de">alexander.keth@uni-hamburg.de
 
