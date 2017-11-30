@@ -207,22 +207,21 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 /*    CUSTOM CSS    */
 /*~~~~~~~~~~~~~~~~~~*/
 
-.footer {
+.rect-bottom {
   background: linear-gradient(to right, rgb(150, 150, 150), rgb(30, 30, 30));
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   height: 22px;
   width: 100%;
 }
 
-.header {
+.rect-top {
   background: linear-gradient(to right, rgb(30, 30, 30), rgb(150, 150, 150));
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   height: 75px;
   width: 100%;
 }
-
 

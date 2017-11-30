@@ -15,18 +15,17 @@ output:
 
 layout: true
 
-<div class="header"></div>
-<div class="footer"></div> 
+<div class="rect-top"></div>
+<div class="rect-bottom"></div> 
 
 ---
 
 ## This is the heading
 
-Focus on your content. Writing your presentation in a simple markdown document means you are freed from battling with the UI and layouts of individual slides and can focus entirely on writing your content. By way of example, I wrote this post in markdown and converted it to remark.js by following these 5 steps.
+```{r, echo=FALSE}
+cat(stringi::stri_rand_lipsum(3, start_lipsum = TRUE), sep="\n\n")
+```
 
-Focus on your content. Writing your presentation in a simple markdown document means you are freed from battling with the UI and layouts of individual slides and can focus entirely on writing your content. By way of example, I wrote this post in markdown and converted it to remark.js by following these 5 steps.
-
-Focus on your content. Writing your presentation in a simple markdown document means you are freed from battling with the UI and layouts of individual slides and can focus entirely on writing your content. By way of example, I wrote this post in markdown and converted it to remark.js by following these 5 steps.
 
 ```{r}
 library("ggplot2")
@@ -37,11 +36,14 @@ ggplot(mtcars, aes(x = mpg, y = wt)) +
 
 ---
 
-layout:false
+layout: false
+class: split, middle, center
 
 # Your turn!
 
 ## Do Stuff!
+
+`1+1`, `sum(1:10) + min(1:10)`
 
 ```{r, echo=FALSE}
 library("ggplot2")
@@ -52,7 +54,7 @@ ggplot(mtcars, aes(x = mpg, y = wt)) +
 
 ---
 
-layout:true
+layout: true
 
 <div class="header"></div>
 <div class="footer"></div> 
