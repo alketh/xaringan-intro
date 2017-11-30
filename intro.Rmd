@@ -13,10 +13,10 @@ output:
       countIncrementalSlides: false
 ---
 
-layout:true
+layout: true
 
 <div class="header"></div>
-<div class="footer"><span>
+<div class="footer"></div> 
 
 ---
 
@@ -28,21 +28,34 @@ Focus on your content. Writing your presentation in a simple markdown document m
 
 Focus on your content. Writing your presentation in a simple markdown document means you are freed from battling with the UI and layouts of individual slides and can focus entirely on writing your content. By way of example, I wrote this post in markdown and converted it to remark.js by following these 5 steps.
 
+```{r}
+library("ggplot2")
+
+ggplot(mtcars, aes(x = mpg, y = wt)) +
+  geom_point()
+```
+
 ---
 
-layout: false
-class: split, center, middle
+layout:false
 
 # Your turn!
 
 ## Do Stuff!
+
+```{r, echo=FALSE}
+library("ggplot2")
+
+ggplot(mtcars, aes(x = mpg, y = wt)) +
+  geom_point()
+```
 
 ---
 
 layout:true
 
 <div class="header"></div>
-<div class="footer"><span>
+<div class="footer"></div> 
 
 ---
 
