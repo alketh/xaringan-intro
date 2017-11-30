@@ -29,7 +29,7 @@ h3 {
   text-align: center;
 }
 
-.remark-slide-content{ /* top, bottom, right, left */
+.remark-slide-content{ /* top, right, bottom, left */
   padding: 0em 0em 0em 1em;
   line-height: 0.5em;
 }
