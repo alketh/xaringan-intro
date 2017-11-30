@@ -24,10 +24,6 @@ h3 {
   color: rgb(180, 180, 180);
 }
 
-header {
-  background-color: rgb(60, 60, 60);
-}
-
 .header-site {
   background-color: rgb(60, 60, 60);
 }
@@ -157,13 +153,13 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 /* FINAL SLIDE      */
 /*~~~~~~~~~~~~~~~~~~*/
 
-.title-slide-final {
+.final-slide {
   background-color: rgb(60, 60, 60);
   color: #fff;
   padding-left: 100px; 
 }
 
-.title-slide-final a, a > code {
+.final-slide a, a > code {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }

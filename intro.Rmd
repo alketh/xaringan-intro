@@ -29,7 +29,7 @@ class: split, center, middle
 
 ---
 
-class: title-slide-final, middle, center
+class: final-slide, middle, center
 
 ## Thanks!
 
