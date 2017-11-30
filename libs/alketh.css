@@ -17,14 +17,6 @@ a, a > code {
   text-decoration: none; /* do not use any background */
 }
 
-h1 {
-  color: rgb(255, 130, 0);
-}
-
-h3 {
-  color: rgb(200, 200, 200);
-}
-
 .split {
   background: linear-gradient(to bottom right, rgb(30, 30, 30), rgb(150, 150, 150));
   text-align: center;
@@ -35,19 +27,12 @@ h3 {
   display: none;
 }
 
-.my-style {
-  border-top: 75px solid;
-  border-top-color: linear-gradient(to bottom right, rgb(30, 30, 30), rgb(150, 150, 150));
-}
-
 .remark-slide-content {
-  padding: 1em 2em 1em 2em;
+  padding: 0em 0em 0em 0em;
 }
 
-h2 {
+.remark-slide-content > h2 {
   font-size: 45px;
-  top: 0px;
-  margin-top: -620px;
   margin-left: 20px;
   line-height: 1.5px;
   color: rgb(255, 130, 0);
