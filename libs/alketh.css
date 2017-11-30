@@ -36,7 +36,7 @@ h3 {
   padding: 1em 2em 1em 2em;
 }
 
-.my-style > h2 {
+.my-style h2 {
   font-size: 45px;
   margin-top: -68px;
   margin-left: 00px;
@@ -51,7 +51,7 @@ h3 {
 }
 
 /* H1 fonts */
-.title-slide > h1 {
+.title-slide h1 {
   color: rgb(255, 130, 0);
   padding-top: 250px;
   font-weight: normal;
