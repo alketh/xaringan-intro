@@ -31,6 +31,7 @@ h3 {
 
 .remark-slide-content {
   border-top: 75px solid rgb(60, 60, 60);
+  border-bottom: 22px solid rgb(60, 60, 60);
   line-height: 1.0;
   padding: 1em 2em 1em 2em /* top, right, bottom, left */
 }
@@ -91,7 +92,7 @@ h3 {
 .remark-slide-number{
   font-size: 75%;
   color: rgb(180, 180, 180);
-    bottom: 4px;
+  bottom: 3px;
 }
 
 .footnote {
@@ -184,7 +185,6 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 .final-slide {
   background-color: rgb(60, 60, 60);
   color: #fff;
-  padding-left: 100px; 
 }
 
 .final-slide a, a > code {
