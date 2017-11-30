@@ -37,6 +37,10 @@ h3 {
   text-align: center;
 }
 
+.remark-slide-content{
+  padding: 1em 1em 1em 1em;
+}
+
 /* H1 fonts */
 .title-slide h1 {
   color: rgb(255, 130, 0);
@@ -75,11 +79,13 @@ h3 {
 /* Remove slide count */
 .title-slide .remark-slide-number {
   text-shadow: none;
+  color: rgb(60, 60, 60);
 }
 
 .remark-slide-number{
   font-size: 75%;
   color: rgb(180, 180, 180);
+    bottom: 4px;
 }
 
 .footnote {
