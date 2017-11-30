@@ -44,16 +44,17 @@ h2 {
 /*~~~~~~~~~~~~~~~~~~*/
 
 .split {
-  background-color: rgb(30, 120, 170);
+  background: linear-gradient(to bottom right, rgb(30, 30, 30), rgb(150, 150, 150));
 }
 
 .split h1 {
   font-size: 45px;
+  color: rgb(200, 200, 200);
 }
 
 .split h2 {
   font-size: 35px;
-  color: rgb(0, 0, 0);
+  color: rgb(200, 200, 200);
 }
 
 .split .remark-slide-number {
@@ -210,8 +211,8 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 .rect-bottom {
   background: linear-gradient(to right, rgb(150, 150, 150), rgb(30, 30, 30));
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   height: 22px;
   width: 100%;
 }
@@ -219,9 +220,14 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 .rect-top {
   background: linear-gradient(to right, rgb(30, 30, 30), rgb(150, 150, 150));
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   height: 75px;
   width: 100%;
 }
 
+.highlight-line {
+  background-color:rgb(255, 130, 0);
+  position: relative;
+  height: 3px;
+}

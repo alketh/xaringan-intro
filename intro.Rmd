@@ -41,6 +41,8 @@ class: split, middle, center
 
 # Your turn!
 
+<div class="highlight-line"></div>
+
 ## Do Stuff!
 
 `1+1`, `sum(1:10) + min(1:10)`
