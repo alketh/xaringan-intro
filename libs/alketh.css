@@ -30,17 +30,26 @@ h3 {
   text-align: center;
 }
 
+/* Remove slide count */
+.split .remark-slide-number {
+  display: none;
+}
+
 .my-style {
   border-top: 75px solid;
   border-top-color: linear-gradient(to bottom right, rgb(30, 30, 30), rgb(150, 150, 150));
+}
+
+.remark-slide-content {
   padding: 1em 2em 1em 2em;
 }
 
-.my-style h2 {
+h2 {
   font-size: 45px;
-  margin-top: -68px;
-  margin-left: 00px;
-  line-height: 0.5;
+  top: 0px;
+  margin-top: -620px;
+  margin-left: 20px;
+  line-height: 1.5px;
   color: rgb(255, 130, 0);
 }
 
@@ -92,7 +101,7 @@ h3 {
 
 .remark-slide-number{
   font-size: 75%;
-  color: rgb(200, 200, 200);
+  color: rgb(255, 130, 0);
   bottom: 3px;
 }
 
@@ -234,7 +243,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add Header, use this in custom layout  */
 .header {
-    background: linear-gradient(to right, rgb(150, 150, 150), rgb(30, 30, 30));
+    background: linear-gradient(to right, rgb(30, 30, 30), rgb(150, 150, 150));
     position: fixed;
     top: 0px;
     left: 0px;
