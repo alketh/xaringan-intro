@@ -12,7 +12,7 @@ Light-Grey:  rgb(180, 180, 180)
 
 /* Highlight links */
 a, a > code {
-  color: rgb(30, 120, 170)
+  color: rgb(30, 120, 170);
   text-decoration: none;
 }
 
@@ -24,21 +24,19 @@ h3 {
   color: rgb(180, 180, 180);
 }
 
-.header-site {
-  background-color: rgb(60, 60, 60);
-}
-
-.title-slide {
-  background-color: rgb(60, 60, 60);
-}
-
 .split {
   background-color: rgb(60, 60, 60);
   text-align: center;
 }
 
-.remark-slide-content{
-  padding: 1em 1em 1em 1em;
+.remark-slide-content{ /* top, bottom, right, left */
+  padding: 0em 0em 0em 1em;
+  line-height: 0.5em;
+}
+
+.title-slide {
+  background-color: rgb(60, 60, 60);
+  line-height: 1.5em;
 }
 
 /* H1 fonts */
@@ -78,7 +76,7 @@ h3 {
 
 /* Remove slide count */
 .title-slide .remark-slide-number {
-  opacity: 0;
+  display: none;
 }
 
 .remark-slide-number{
@@ -170,7 +168,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 }
 
 .final-slide .remark-slide-number {
-  opacity: 0;
+  display: none;
 }
 
 
