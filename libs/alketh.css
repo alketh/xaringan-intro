@@ -6,7 +6,7 @@ colors:used
 Orange:      rgb(255, 130, 0)
 Blue:        rgb(30, 120, 170)
 Dark-Grey:   rgb(60, 60, 60)
-Light-Grey:  rgb(180, 180, 180)
+Light-Grey:  rgb(200, 200, 200)
 */
 
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 h3 {
-  color: rgb(180, 180, 180);
+  color: rgb(200, 200, 200);
 }
 
 .split {
@@ -45,8 +45,9 @@ h3 {
 }
 
 .title-slide {
-  background-color: rgb(60, 60, 60);
+  background: linear-gradient(to bottom right, rgb(30, 30, 30), rgb(120, 120, 120));
   line-height: 1.5em;
+  background-size: cover;
 }
 
 /* H1 fonts */
@@ -64,7 +65,7 @@ h3 {
 
 /* H2 fonts */
 .title-slide h2 {
-  color: rgb(180, 180, 180);
+  color: rgb(200, 200, 200);
   font-size: 35px;
   text-align: left;
   text-shadow: none;
@@ -76,7 +77,7 @@ h3 {
 .title-slide h3 {
   font-size: 28px;
   font-weight: normal;
-  color: rgb(180, 180, 180);
+  color: rgb(200, 200, 200);
   text-align: left;
   text-shadow: none;
   padding: 0px;
@@ -91,7 +92,7 @@ h3 {
 
 .remark-slide-number{
   font-size: 75%;
-  color: rgb(180, 180, 180);
+  color: rgb(200, 200, 200);
   bottom: 3px;
 }
 
