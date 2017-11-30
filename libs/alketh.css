@@ -224,17 +224,17 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* Add Footer, use this in custom layout */
 .footer {
-    background-color: rgb(30, 30, 30);
+    background: linear-gradient(to right, rgb(150, 150, 150), rgb(30, 30, 30));
     position: absolute;
     bottom: 0px;
     left: 0px;
-    height: 20px;
+    height: 22px;
     width: 100%;
 }
 
 /* Add Header, use this in custom layout  */
 .header {
-    background-color: rgb(30, 30, 30);
+    background: linear-gradient(to right, rgb(150, 150, 150), rgb(30, 30, 30));
     position: fixed;
     top: 0px;
     left: 0px;
