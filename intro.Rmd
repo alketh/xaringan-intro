@@ -13,18 +13,13 @@ output:
       countIncrementalSlides: false
 ---
 
-layout: true
-  
-<div class="header"></div>
-<div class="footer"></div>
+## This is the heading
 
----
+Focus on your content. Writing your presentation in a simple markdown document means you are freed from battling with the UI and layouts of individual slides and can focus entirely on writing your content. By way of example, I wrote this post in markdown and converted it to remark.js by following these 5 steps.
 
-## test
+Focus on your content. Writing your presentation in a simple markdown document means you are freed from battling with the UI and layouts of individual slides and can focus entirely on writing your content. By way of example, I wrote this post in markdown and converted it to remark.js by following these 5 steps.
 
-### test
-
-First slide
+Focus on your content. Writing your presentation in a simple markdown document means you are freed from battling with the UI and layouts of individual slides and can focus entirely on writing your content. By way of example, I wrote this post in markdown and converted it to remark.js by following these 5 steps.
 
 ---
 

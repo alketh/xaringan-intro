@@ -16,7 +16,7 @@ a, a > code {
   text-decoration: none; /* do not use any background */
 }
 
-h1, h2 {
+h1 {
   color: rgb(255, 130, 0);
 }
 
@@ -29,9 +29,18 @@ h3 {
   text-align: center;
 }
 
-.remark-slide-content{ /* top, right, bottom, left */
-  padding: 0em 0em 0em 1em;
-  line-height: 0.5em;
+.remark-slide-content {
+  border-top: 75px solid rgb(60, 60, 60);
+  line-height: 1.0;
+  padding: 1em 2em 1em 2em /* top, right, bottom, left */
+}
+
+.remark-slide-content > h2 {
+  font-size: 45px;
+  margin-top: -68px;
+  margin-left: 00px;
+  line-height: 0.5;
+  color: rgb(255, 130, 0);
 }
 
 .title-slide {
