@@ -5,7 +5,7 @@ Author: Alexander Keth
 colors:used
 Orange:      rgb(255, 130, 0)
 Blue:        rgb(30, 120, 170)
-Dark-Grey:   rgb(85, 85, 85)
+Dark-Grey:   rgb(60, 60, 60)
 Light-Grey:  rgb(180, 180, 180)
 */
 
@@ -16,29 +16,29 @@ a, a > code {
   text-decoration: none;
 }
 
-h1 {
+h1, h2 {
   color: rgb(255, 130, 0);
 }
 
 h3 {
-  color: rgb(255, 130, 0);
+  color: rgb(180, 180, 180);
+}
+
+header {
+  background-color: rgb(60, 60, 60);
+}
+
+.header-site {
+  background-color: rgb(60, 60, 60);
 }
 
 .title-slide {
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(60, 60, 60);
 }
-
 
 .split {
-  background-color: rgb(85, 85, 85);
-}
-
-.split h1 {
-  color: rgb(255, 130, 0);
-}
-
-.split h2 {
-  color: rgb(180, 180, 180);
+  background-color: rgb(60, 60, 60);
+  text-align: center;
 }
 
 /* H1 fonts */
@@ -79,6 +79,11 @@ h3 {
 /* Remove slide count */
 .title-slide .remark-slide-number {
   text-shadow: none;
+}
+
+.remark-slide-number{
+  font-size: 75%;
+  color: rgb(180, 180, 180);
 }
 
 .footnote {
@@ -148,48 +153,20 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 }
 
 
-
-/*~~~~~~~~~~~~~~~~~~*/
-/* SECTION DIVIDERS */
-/*~~~~~~~~~~~~~~~~~~*/
-
-
-
-
-/* section divider grey */
-.title-slide-section-grey {
-  background-color: #515151;
-  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
-}
-
-/* section divider grey H1 fonts */
-.title-slide-section-grey h1, .title-slide-section-grey h2, .title-slide-section-grey h3 {
-  color: #cc0033;
-}
-
-.title-slide-section-grey p {
-  color: #fff;
-}
-
-
-
 /*~~~~~~~~~~~~~~~~~~*/
 /* FINAL SLIDE      */
 /*~~~~~~~~~~~~~~~~~~*/
 
 .title-slide-final {
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(60, 60, 60);
   color: #fff;
   padding-left: 100px; 
-  text-shadow: 0 0 20px #333;
-  text-align: center;
 }
 
-.title-slide-final h1 {
-  color: rgb(255, 130, 0);
+.title-slide-final a, a > code {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
-
-
 
 
 
