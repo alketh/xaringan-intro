@@ -4,7 +4,7 @@
     <title>Introduction to xaringan</title>
     <meta charset="utf-8">
     <meta name="author" content="Alexander Keth" />
-    <meta name="date" content="2017-11-30" />
+    <meta name="date" content="2017-12-01" />
     <link rel="stylesheet" href="libs\alketh.css" type="text/css" />
     <link rel="stylesheet" href="libs\remark\default-fonts.css" type="text/css" />
   </head>
@@ -15,29 +15,14 @@ class: center, middle, inverse, title-slide
 # Introduction to xaringan
 ## Beautiful presentations with xaringan
 ### Alexander Keth
-### 2017-11-30
+### 2017-12-01
 
 ---
 
 
-layout: true
-
-&lt;div class="rect-top"&gt;&lt;/div&gt;
-&lt;div class="rect-bottom"&gt;&lt;/div&gt; 
-
----
+class: my-slide
 
 ## This is the heading
-
-
-```
-## Lorem ipsum dolor sit amet, nunc leo tempor tellus. Donec pulvinar donec lobortis, nibh, in proin. Potenti nullam tempor cras a in fermentum sapien litora urna. Quis sem lacinia vulputate, eget facilisis luctus consequat ullamcorper et. Aliquam tristique, purus erat eget netus nunc eleifend. Viverra ullamcorper praesent quis suspendisse in, maximus, nulla. Libero nibh semper ornare in. Eget etiam, orci, urna, turpis eu, dolor aliquet vestibulum sociosqu. At, ligula, nullam viverra curae maecenas dis.
-## 
-## Accumsan egestas at, iaculis, aenean dis molestie sem id. Porttitor amet netus maecenas. Aenean, non consequat ligula mollis varius. Vehicula nunc, convallis. Torquent luctus id dui curabitur, egestas mollis mus nibh curae erat sit volutpat ut purus curae. Interdum fermentum ridiculus, est. Ullamcorper, nunc netus sed sed lacus gravida nostra primis, tincidunt. Donec adipiscing sit nec ut in luctus molestie sem et in. Commodo lacus condimentum sed aliquam. Ante lorem tortor.
-## 
-## Penatibus mauris tellus mi in sed sollicitudin urna maecenas ut pellentesque sed sit! Elit magna condimentum sed ridiculus mauris eu sed ultricies in diam proin vitae luctus non duis et. Tempor vel ex aenean, non sed nullam turpis ultricies ornare. Ex curabitur diam blandit condimentum phasellus nibh augue. Turpis commodo porta, taciti elit sed ut pulvinar, vitae nec diam elit. Purus ornare nec blandit fames blandit, id ut. Quis vitae ut sodales ac pulvinar diam arcu maecenas sapien rutrum. Tristique at, eget habitant. Ipsum in laoreet pretium sed donec.
-```
-
 
 
 ```r
@@ -46,8 +31,6 @@ library("ggplot2")
 ggplot(mtcars, aes(x = mpg, y = wt)) +
   geom_point()
 ```
-
-![](intro_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
 
 ---
 
@@ -62,14 +45,13 @@ class: split, middle, center
 
 `1+1`, `sum(1:10) + min(1:10)`
 
-![](intro_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+![](intro_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
 
 ---
 
 layout: true
 
-&lt;div class="header"&gt;&lt;/div&gt;
-&lt;div class="footer"&gt;&lt;/div&gt; 
+&lt;div class="rect-middle"&gt;&lt;/div&gt;
 
 ---
 
@@ -102,8 +84,15 @@ class: final-slide, center, middle
 "highlightLines": true,
 "countIncrementalSlides": false
 });
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
-(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({

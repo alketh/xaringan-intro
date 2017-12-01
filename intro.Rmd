@@ -13,21 +13,11 @@ output:
       countIncrementalSlides: false
 ---
 
-layout: true
-
-<div class="rect-top"></div>
-<div class="rect-bottom"></div> 
-
----
+class: my-slide
 
 ## This is the heading
 
-```{r, echo=FALSE}
-cat(stringi::stri_rand_lipsum(3, start_lipsum = TRUE), sep="\n\n")
-```
-
-
-```{r}
+```{r, eval=FALSE}
 library("ggplot2")
 
 ggplot(mtcars, aes(x = mpg, y = wt)) +
@@ -58,8 +48,7 @@ ggplot(mtcars, aes(x = mpg, y = wt)) +
 
 layout: true
 
-<div class="header"></div>
-<div class="footer"></div> 
+<div class="rect-middle"></div>
 
 ---
 

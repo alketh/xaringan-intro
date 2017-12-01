@@ -208,21 +208,19 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 /*    CUSTOM CSS    */
 /*~~~~~~~~~~~~~~~~~~*/
 
-.rect-bottom {
-  background: linear-gradient(to right, rgb(150, 150, 150), rgb(30, 30, 30));
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 22px;
-  width: 100%;
+.my-slide {
+  background-image: url("libs/bg-white.png"),
+      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 4em, 100%;
+  background-size: 10%, 100%;
 }
 
-.rect-top {
-  background: linear-gradient(to right, rgb(30, 30, 30), rgb(150, 150, 150));
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 75px;
+.rect-middle {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 200px;
+  bottom: 200px;
   width: 100%;
 }
 
@@ -231,3 +229,4 @@ thead, tfoot, tr:nth-child(even) { background: none; }
   position: relative;
   height: 3px;
 }
+
