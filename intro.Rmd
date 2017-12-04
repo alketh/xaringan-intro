@@ -13,8 +13,10 @@ output:
       countIncrementalSlides: false
 ---
 
-layout:true
+layout: true
 class: my-slide
+
+--- 
 
 ## This is the heading
 
@@ -26,6 +28,7 @@ ggplot(mtcars, aes(x = mpg, y = wt)) +
 ```
 
 test 
+
 ---
 
 layout: false
