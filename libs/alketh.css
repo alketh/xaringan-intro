@@ -27,9 +27,8 @@ h2 {
 
 .remark-slide-number{
   font-size: 75%;
-  color: rgb(200, 200, 200);
   font-weight: bold;
-  bottom: 3px;
+  bottom: 2px;
 }
 
 .footnote {
@@ -45,6 +44,7 @@ h2 {
 
 .split {
   background: linear-gradient(to bottom right, rgb(30, 30, 30), rgb(150, 150, 150));
+  line-height: 0.2em;
 }
 
 .split h1 {
@@ -55,6 +55,7 @@ h2 {
 .split h2 {
   font-size: 35px;
   color: rgb(200, 200, 200);
+  padding: 0 0 0.5em 0;
 }
 
 .split .remark-slide-number {
@@ -209,11 +210,18 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 /*~~~~~~~~~~~~~~~~~~*/
 
 .my-slide {
-  background-image: url("libs/bg-white.png"),
-      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  background-image: url("https://raw.githubusercontent.com/alketh/xaringan-intro/master/libs/bg-white.png"), 
+     linear-gradient(to bottom right, rgb(30, 30, 30), rgb(150, 150, 150));
   background-repeat: no-repeat, no-repeat;
-  background-position: top 4em, 100%;
-  background-size: 10%, 100%;
+  background-position: 0em 4em, 100%;
+  background-size: 100% 85%, 100%;
+  padding: 0em 0em 0em 1.4em;
+}
+
+.my-slide h2 {
+  font-size: 45px;
+  line-height: 0.2em;
+  padding: 0 0 0.2em 0;
 }
 
 .rect-middle {
