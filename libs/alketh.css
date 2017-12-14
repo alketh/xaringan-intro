@@ -215,7 +215,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
   background-repeat: no-repeat, no-repeat;
   background-position: 0em 4em, 100%;
   background-size: 100% 85%, 100%;
-  padding: 0em 0em 0em 1.4em;
+  padding: 0 1.4em 0 1.4em;
 }
 
 .my-slide h2 {
