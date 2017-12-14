@@ -20,7 +20,7 @@ class: my-slide
 
 ## This is the heading
 
-```{r, eval=FALSE}
+```{r, fig.height = 5, fig.width = 5}
 library("ggplot2")
 
 ggplot(mtcars, aes(x = mpg, y = wt)) +
