@@ -61,12 +61,24 @@ class: my-slide
 Well, this is pretty random
 
 ```{r, fig.height = 5, fig.width = 5}
-{{ggplot(diamonds, aes(x = carat, y = price)) +
-  geom_point()}}
+{{p <- ggplot(diamonds, aes(x = carat, y = price))}}
+```
+
+---
+
+## Random heading
+
+Well, this is pretty random
+
+```{r, fig.height = 5, fig.width = 5}
+p <- ggplot(diamonds, aes(x = carat, y = price))
+{{p <- p + geom_point()}}
+p
 ```
 
 
 ---
+
 
 ## Another slide
 

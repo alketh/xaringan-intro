@@ -67,14 +67,27 @@ Well, this is pretty random
 
 
 ```r
-*ggplot(diamonds, aes(x = carat, y = price)) +
-*  geom_point()
+*p &lt;- ggplot(diamonds, aes(x = carat, y = price))
 ```
 
-![](intro_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
+---
+
+## Random heading
+
+Well, this is pretty random
+
+
+```r
+p &lt;- ggplot(diamonds, aes(x = carat, y = price))
+*p &lt;- p + geom_point()
+p
+```
+
+![](intro_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
 
 
 ---
+
 
 ## Another slide
 
