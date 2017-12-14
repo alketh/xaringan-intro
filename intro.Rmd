@@ -16,10 +16,7 @@ output:
 layout: true
 class: my-slide
 
---- 
-
-
-
+---
 
 ## This is the heading
 
