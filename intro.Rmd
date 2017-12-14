@@ -18,6 +18,9 @@ class: my-slide
 
 --- 
 
+
+
+
 ## This is the heading
 
 ```{r, eval=FALSE}
@@ -42,7 +45,7 @@ class: split, middle, center
 
 `1+1`, `sum(1:10) + min(1:10)`
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, fig.height = 5, fig.width = 5}
 library("ggplot2")
 
 ggplot(mtcars, aes(x = mpg, y = wt)) +
@@ -56,9 +59,15 @@ class: my-slide
 
 ---
 
-## a
+## Random heading
 
-s
+Well, this is pretty random
+
+```{r, fig.height = 5, fig.width = 5}
+{{ggplot(diamonds, aes(x = carat, y = price)) +
+  geom_point()}}
+```
+
 
 ---
 
